@@ -31,7 +31,7 @@ void mouseDragged(MouseEvent e) {
   tX += mouseX - pmouseX;
   tY += mouseY - pmouseY;
 }
-void mousewheel(MouseEvent e) {
+void mouseWheel(MouseEvent e) {
   double f = 1.0;
   if (e.getCount() < 0 && sF < 2000000000000.0) {
     f = 1.1;
